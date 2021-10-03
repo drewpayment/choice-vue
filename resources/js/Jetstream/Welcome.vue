@@ -3,8 +3,7 @@
         <div class="p-6 sm:px-20 bg-white border-b border-gray-200">
             <div class="flex flex-row items-center justify-center sm:justify-start">
               <Logo height="h-12" />
-              <span class="mt-2 text-green-700 text-2xl">Choice Marketing</span>
-                <!-- <jet-application-logo class="block h-12 w-auto" /> -->
+              <span class="mt-2 text-2xl">Choice Marketing</span>
             </div>
 
             <div class="mt-8 text-2xl">

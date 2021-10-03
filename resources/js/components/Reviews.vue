@@ -15,7 +15,7 @@
               <dt>
                 <p class="text-lg leading-6 font-medium text-green-600">{{review.title}}</p>
               </dt>
-              <dd class="overflow-scroll h-48 sm:h-auto sm:overflow-automt-2 text-base text-gray-500">
+              <dd class="overflow-scroll h-48 sm:h-auto sm:overflow-auto mt-2 text-base text-gray-500">
                 {{ review.content }}
               </dd>
             </div>

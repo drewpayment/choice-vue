@@ -3,7 +3,10 @@
 
     <jet-authentication-card>
         <template #logo>
-          <Logo height="h-20 mt-20 sm:m-0" />
+          <div class="grid grid-cols-1 justify-items-center">
+            <Logo height="h-20 mt-20 sm:m-0" />
+            <h2>Choice Marketing</h2>
+          </div>
         </template>
 
         <jet-validation-errors class="mb-4" />
@@ -31,13 +34,17 @@
             </div>
 
             <div class="flex items-center justify-end mt-4">
-                <Link v-if="canResetPassword" :href="route('password.request')" class="underline text-sm text-gray-600 hover:text-gray-900">
-                    Forgot your password?
-                </Link>
+              <Link :href="route('register')" class="underline text-sm text-gray-600 hover:text-gray-900 mr-4">
+                Register
+              </Link>
 
-                <jet-button class="ml-4" :class="{ 'opacity-25': form.processing }" :disabled="form.processing">
-                    Log in
-                </jet-button>
+              <Link v-if="canResetPassword" :href="route('password.request')" class="underline text-sm text-gray-600 hover:text-gray-900">
+                  Forgot your password?
+              </Link>
+
+              <jet-button class="ml-4" :class="{ 'opacity-25': form.processing }" :disabled="form.processing">
+                  Log in
+              </jet-button>
             </div>
         </form>
     </jet-authentication-card>

@@ -117,30 +117,6 @@
               <div
                 class="hidden md:block md:ml-10 md:pr-4 md:space-x-8"
               >
-                <a
-                  href="#"
-                  class="font-medium text-gray-500 hover:text-gray-900"
-                  >Product</a
-                >
-
-                <a
-                  href="#"
-                  class="font-medium text-gray-500 hover:text-gray-900"
-                  >Features</a
-                >
-
-                <!-- <a
-                  href="#"
-                  class="font-medium text-gray-500 hover:text-gray-900"
-                  >Marketplace</a
-                > -->
-
-                <a
-                  href="#"
-                  class="font-medium text-gray-500 hover:text-gray-900"
-                  >Company</a
-                >
-
                 <template v-if="canLogin">
                   <Link
                     v-if="$page.props.user"
@@ -214,7 +190,7 @@
                     <path d="M77.9826 11L73.4943 23.2405" stroke="#FBC909" stroke-width="5" stroke-linecap="round"/>
                     <path d="M97.1113 37.1509L87.6454 40.9543" stroke="#FBC909" stroke-width="5" stroke-linecap="round"/>
                   </svg>
-                  <span class="mt-2 text-green-600">
+                  <span class="mt-2">
                     Choice Marketing
                   </span>
                 </div>

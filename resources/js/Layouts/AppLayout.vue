@@ -14,7 +14,6 @@
                             <div class="flex-shrink-0 flex items-center">
                                 <Link :href="route('dashboard')">
                                   <Logo height="h-11" />
-                                    <!-- <jet-application-mark class="block h-9 w-auto" /> -->
                                 </Link>
                             </div>
 
