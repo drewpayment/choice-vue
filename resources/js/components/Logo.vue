@@ -1,0 +1,34 @@
+<template>
+  <!-- LOGO -->
+  <svg :class="height" class="w-auto" width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M47.1113 95H75.1113" stroke="#249769" stroke-width="5" stroke-linecap="round"/>
+    <path d="M50.499 102.547L71.7255 102.53" stroke="#249769" stroke-width="5" stroke-linecap="round"/>
+    <path d="M52.1113 110H70.1113" stroke="#249769" stroke-width="5" stroke-linecap="round"/>
+    <path d="M49.8169 31.0988L73.7842 37.6035" stroke="#FBC909" stroke-width="5" stroke-linecap="round"/>
+    <path d="M45.0234 44.4212L73.3204 37.5245" stroke="#FBC909" stroke-width="5" stroke-linecap="round"/>
+    <path d="M45.6226 44.4212L83.3713 50.3758" stroke="#FBC909" stroke-width="5" stroke-linecap="round"/>
+    <path d="M40.2299 56.8015L83.3713 50.3759" stroke="#FBC909" stroke-width="5" stroke-linecap="round"/>
+    <path d="M40.2299 56.8015L78.5778 60.0144" stroke="#FBC909" stroke-width="5" stroke-linecap="round"/>
+    <path d="M40.2299 69.6528L78.5778 60.0143" stroke="#FBC909" stroke-width="5" stroke-linecap="round"/>
+    <path d="M40.2299 69.6528L76.1811 72.8656" stroke="#FBC909" stroke-width="5" stroke-linecap="round"/>
+    <path d="M54.0367 81.1032L76.1811 72.8657" stroke="#FBC909" stroke-width="5" stroke-linecap="round"/>
+    <path d="M54.0367 81.1032L71.7522 83.8491" stroke="#FBC909" stroke-width="5" stroke-linecap="round"/>
+    <path d="M22 50.6221L31.9809 49.3077" stroke="#FBC909" stroke-width="5" stroke-linecap="round"/>
+    <path d="M34.5791 16.6038L40.4856 27.224" stroke="#FBC909" stroke-width="5" stroke-linecap="round"/>
+    <path d="M77.9826 11L73.4943 23.2405" stroke="#FBC909" stroke-width="5" stroke-linecap="round"/>
+    <path d="M97.1113 37.1509L87.6454 40.9543" stroke="#FBC909" stroke-width="5" stroke-linecap="round"/>
+  </svg>
+</template>
+
+<script lang="ts">
+import { defineComponent } from 'vue'
+
+export default defineComponent({
+  setup() {
+
+  },
+  props: {
+    height: String,
+  }
+})
+</script>
