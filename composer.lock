@@ -5650,16 +5650,16 @@
         },
         {
             "name": "tightenco/ziggy",
-            "version": "v1.4.0",
+            "version": "v1.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tighten/ziggy.git",
-                "reference": "9e709f5f9abbe3045d8034f6420e62efed1723ed"
+                "reference": "620c135281062b9f6b53a75b07f99a4339267277"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tighten/ziggy/zipball/9e709f5f9abbe3045d8034f6420e62efed1723ed",
-                "reference": "9e709f5f9abbe3045d8034f6420e62efed1723ed",
+                "url": "https://api.github.com/repos/tighten/ziggy/zipball/620c135281062b9f6b53a75b07f99a4339267277",
+                "reference": "620c135281062b9f6b53a75b07f99a4339267277",
                 "shasum": ""
             },
             "require": {
@@ -5710,9 +5710,9 @@
             ],
             "support": {
                 "issues": "https://github.com/tighten/ziggy/issues",
-                "source": "https://github.com/tighten/ziggy/tree/v1.4.0"
+                "source": "https://github.com/tighten/ziggy/tree/v1.4.2"
             },
-            "time": "2021-08-25T20:24:20+00:00"
+            "time": "2021-10-01T13:55:26+00:00"
         },
         {
             "name": "tijsverkoyen/css-to-inline-styles",
